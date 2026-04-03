@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analysis | DeepBlue</title>
+    <meta
+      name="description"
+      content="The DeepBlue analysis archive with stock theses, sector notes, market commentary, thematic buckets, and in-browser stock projection scenarios."
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div data-site-header></div>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero__grid">
+          <div class="page-copy">
+            <p class="page-kicker">Analysis</p>
+            <h1>A structured archive of my market thinking</h1>
+            <p>
+              This is the core hub for my work: stock theses, sector trend breakdowns, market notes,
+              emerging themes, and watchlist ideas. The goal is not volume. It is clarity, signal
+              discipline, and a record of how I think through changing market structure.
+            </p>
+          </div>
+          <aside class="page-aside">
+            <div class="aside-note" data-reveal>
+              <p class="eyebrow">How to use this page</p>
+              <p>
+                Filter the archive, open a note, then use the projection board to see how I currently
+                frame the path of a few high-interest names.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="archive-shell">
+            <div class="archive-toolbar">
+              <div>
+                <p class="section-kicker">Archive filters</p>
+                <h2>Find the angle you care about</h2>
+              </div>
+              <div class="archive-count" data-analysis-count></div>
+            </div>
+            <div class="filter-grid filter-grid--analysis" data-analysis-filters></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container archive-layout">
+          <div data-analysis-detail></div>
+          <div class="archive-cards archive-cards--visible" data-analysis-grid></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Projection lab</p>
+              <h2>Scenario paths for names I am focused on</h2>
+            </div>
+            <p>
+              These charts are directional scenario maps based on the way I currently read narrative,
+              participation, and confirmation. They are meant to make the setup legible, not to
+              pretend precision that the market does not offer.
+            </p>
+          </div>
+          <div data-projection-lab></div>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+
+    <script type="module" src="assets/js/archive.js"></script>
+  </body>
+</html>

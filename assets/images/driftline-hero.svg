@@ -1,0 +1,54 @@
+<svg width="920" height="760" viewBox="0 0 920 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="68" x2="760" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset="1" stop-color="#E9F0FF"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(460 330) rotate(90) scale(230 230)">
+      <stop stop-color="#B7C9FF" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#B7C9FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="302" y1="214" x2="618" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D5AAF"/>
+      <stop offset="1" stop-color="#2F356B"/>
+    </linearGradient>
+    <linearGradient id="curveA" x1="154" y1="420" x2="722" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7CBFF"/>
+      <stop offset="1" stop-color="#314086"/>
+    </linearGradient>
+    <linearGradient id="curveB" x1="176" y1="536" x2="758" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDE8FF"/>
+      <stop offset="1" stop-color="#6D80D7"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="760" rx="48" fill="url(#bg)"/>
+  <g opacity="0.4">
+    <path d="M120 122H800" stroke="#D7E2FB"/>
+    <path d="M120 236H800" stroke="#D7E2FB"/>
+    <path d="M120 350H800" stroke="#D7E2FB"/>
+    <path d="M120 464H800" stroke="#D7E2FB"/>
+    <path d="M120 578H800" stroke="#D7E2FB"/>
+    <path d="M178 82V678" stroke="#DFE8FC"/>
+    <path d="M302 82V678" stroke="#DFE8FC"/>
+    <path d="M426 82V678" stroke="#DFE8FC"/>
+    <path d="M550 82V678" stroke="#DFE8FC"/>
+    <path d="M674 82V678" stroke="#DFE8FC"/>
+    <path d="M798 82V678" stroke="#DFE8FC"/>
+  </g>
+  <circle cx="460" cy="330" r="230" fill="url(#halo)"/>
+  <circle cx="460" cy="330" r="152" fill="white" fill-opacity="0.78" stroke="url(#ring)" stroke-width="3"/>
+  <circle cx="460" cy="330" r="112" fill="#F8FBFF" stroke="#D2DEF9"/>
+  <path d="M168 438C216 458 252 454 298 422C344 390 378 344 436 330C490 316 536 336 584 310C632 284 668 236 732 210" stroke="url(#curveA)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M186 528C242 528 278 504 332 470C392 432 452 430 500 448C548 466 590 510 642 498C690 486 726 430 758 340" stroke="url(#curveB)" stroke-width="4.6" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <circle cx="436" cy="330" r="12" fill="#2F356B"/>
+  <circle cx="584" cy="310" r="12" fill="#3A3F7A"/>
+  <circle cx="732" cy="210" r="12" fill="#2F356B"/>
+  <circle cx="332" cy="470" r="9" fill="#7487DE"/>
+  <circle cx="642" cy="498" r="9" fill="#7487DE"/>
+  <rect x="336" y="288" width="248" height="84" rx="20" fill="white" fill-opacity="0.85" stroke="#DCE7FF"/>
+  <text x="388" y="322" fill="#2F356B" font-family="Georgia, 'Times New Roman', serif" font-size="28">DeepBlue</text>
+  <text x="392" y="350" fill="#566585" font-family="'Segoe UI', sans-serif" font-size="16">stocks • sectors • narratives • structure</text>
+  <rect x="136" y="564" width="286" height="88" rx="22" fill="white" fill-opacity="0.84" stroke="#DCE7FF"/>
+  <text x="164" y="603" fill="#2F356B" font-family="Georgia, 'Times New Roman', serif" font-size="22">quiet intensity</text>
+  <text x="164" y="630" fill="#566585" font-family="'Segoe UI', sans-serif" font-size="18">looking where the market is changing shape</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg width="920" height="760" viewBox="0 0 920 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="68" x2="760" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d111a"/>
+      <stop offset="1" stop-color="#151926"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(460 330) rotate(90) scale(250 250)">
+      <stop stop-color="#5A8A9E" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#5A8A9E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="302" y1="214" x2="618" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5A8A9E"/>
+      <stop offset="1" stop-color="#2D3045"/>
+    </linearGradient>
+    <linearGradient id="curveA" x1="154" y1="420" x2="722" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8BBAC8"/>
+      <stop offset="1" stop-color="#2D3045"/>
+    </linearGradient>
+    <linearGradient id="curveB" x1="176" y1="536" x2="758" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4B9A6"/>
+      <stop offset="1" stop-color="#5A8A9E"/>
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#5A8A9E"/>
+      <stop offset="1" stop-color="#3a5a6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="760" rx="44" fill="url(#bg)"/>
+  <g opacity="0.15">
+    <path d="M120 122H800" stroke="#5A8A9E"/>
+    <path d="M120 236H800" stroke="#5A8A9E"/>
+    <path d="M120 350H800" stroke="#5A8A9E"/>
+    <path d="M120 464H800" stroke="#5A8A9E"/>
+    <path d="M120 578H800" stroke="#5A8A9E"/>
+    <path d="M178 82V678" stroke="#5A8A9E"/>
+    <path d="M302 82V678" stroke="#5A8A9E"/>
+    <path d="M426 82V678" stroke="#5A8A9E"/>
+    <path d="M550 82V678" stroke="#5A8A9E"/>
+    <path d="M674 82V678" stroke="#5A8A9E"/>
+    <path d="M798 82V678" stroke="#5A8A9E"/>
+  </g>
+  <circle cx="460" cy="330" r="250" fill="url(#halo)"/>
+  <circle cx="460" cy="330" r="152" fill="#151926" fill-opacity="0.9" stroke="url(#ring)" stroke-width="2.5"/>
+  <circle cx="460" cy="330" r="112" fill="#1c2233" stroke="#2a3040"/>
+  <circle cx="460" cy="330" r="68" fill="none" stroke="#C4B9A6" stroke-width="0.8" stroke-dasharray="4 8" opacity="0.3"/>
+  <path d="M168 438C216 458 252 454 298 422C344 390 378 344 436 330C490 316 536 336 584 310C632 284 668 236 732 210" stroke="url(#curveA)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M186 528C242 528 278 504 332 470C392 432 452 430 500 448C548 466 590 510 642 498C690 486 726 430 758 340" stroke="url(#curveB)" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="8 12"/>
+  <circle cx="436" cy="330" r="10" fill="#5A8A9E"/>
+  <circle cx="584" cy="310" r="10" fill="#8BBAC8"/>
+  <circle cx="732" cy="210" r="10" fill="#5A8A9E"/>
+  <circle cx="332" cy="470" r="7" fill="#C4B9A6"/>
+  <circle cx="642" cy="498" r="7" fill="#8BBAC8" opacity="0.7"/>
+  <circle cx="298" cy="422" r="5" fill="#5A8A9E" opacity="0.5"/>
+  <circle cx="500" cy="448" r="5" fill="#C4B9A6" opacity="0.5"/>
+  <rect x="336" y="288" width="248" height="84" rx="18" fill="#151926" fill-opacity="0.95" stroke="#2a3040"/>
+  <rect x="336" y="369" width="248" height="3" rx="1.5" fill="url(#accentBar)" opacity="0.5"/>
+  <text x="388" y="322" fill="#e2e8f0" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="600">DeepBlue</text>
+  <text x="357" y="350" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="14.5">stocks · sectors · narratives · structure</text>
+  <rect x="136" y="564" width="286" height="88" rx="18" fill="#151926" fill-opacity="0.95" stroke="#2a3040"/>
+  <rect x="136" y="649" width="286" height="3" rx="1.5" fill="url(#accentBar)" opacity="0.4"/>
+  <text x="164" y="601" fill="#e2e8f0" font-family="Georgia, 'Times New Roman', serif" font-size="20">quiet intensity</text>
+  <text x="164" y="628" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="16">where the market is changing shape</text>
+</svg>
