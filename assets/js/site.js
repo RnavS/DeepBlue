@@ -4,6 +4,7 @@ const sitePages = [
   { key: "home", label: "Home", href: "index.html" },
   { key: "about", label: "Philosophy", href: "about.html" },
   { key: "framework", label: "Framework", href: "methodology.html" },
+  { key: "quant", label: "Quant", href: "quant.html" },
   { key: "analysis", label: "Analysis", href: "literature.html" },
   { key: "themes", label: "Trend Map", href: "themes.html" },
   { key: "cases", label: "Selected Calls", href: "insights.html" },
