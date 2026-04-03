@@ -235,7 +235,7 @@ function renderHeader(pageKey) {
       <div class="container nav-shell">
         <a class="brand-lockup" href="index.html" aria-label="${escapeHtml(brand.name)} home">
           <span class="brand-mark" aria-hidden="true">
-            <img src="assets/images/deepblue-logo.png" alt="" />
+            <img src="assets/images/deepblue-shield.png" alt="" />
           </span>
           <span class="brand-copy">
             <span class="brand-kicker">${escapeHtml(brand.descriptor)}</span>
@@ -279,7 +279,7 @@ function renderFooter() {
         <div class="footer-brand">
           <a class="brand-lockup brand-lockup--footer" href="index.html" aria-label="${escapeHtml(brand.name)} home">
             <span class="brand-mark" aria-hidden="true">
-              <img src="assets/images/deepblue-logo.png" alt="" />
+              <img src="assets/images/deepblue-shield.png" alt="" />
             </span>
             <span class="brand-copy">
               <span class="brand-kicker">${escapeHtml(brand.descriptor)}</span>
